@@ -14,6 +14,7 @@ A simple Django project that models products, categories, and tags, along with a
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     pip install -r requirements.txt
+    cd productsite
     python manage.py migrate
     python manage.py runserver
 ```
